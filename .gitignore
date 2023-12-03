@@ -1,0 +1,7 @@
+/target
+/input/*/input.txt
+/debug
+Cargo.lock
+*/**/Cargo.lock
+*/**.rs.bk
+*/**/.pdb
