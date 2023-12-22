@@ -10,6 +10,6 @@ pub trait Solution{
 
     fn solve_and_print(){
         let sol = Self::solve();
-        println!("Solution to puzzle {:02} : {}",Self::PUZZLE_DATE,sol)
+        println!("Solution to puzzle {:02} nr {}: {}",Self::PUZZLE_DATE,Self::PUZZLE_NR,sol)
     }
 }
